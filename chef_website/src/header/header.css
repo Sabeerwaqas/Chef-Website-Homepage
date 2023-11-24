@@ -1,0 +1,93 @@
+
+
+/* row-child */
+
+.row-child{
+    /* background-color: antiquewhite; */
+    border: 2px solid black;
+    margin: 2% 0 0 0;
+    height: 50vh;
+}
+
+/* child-1 */
+
+.child-1{
+    position: relative;
+    right: 2%;
+}
+
+/* main-heading */
+
+.main-heading{
+    font-size: 2.1rem;    
+}
+
+/* small-color */
+
+.small-color{
+color: #8f8f8f;    
+}
+
+/* special-color */
+
+.special-color{
+    color: #ff9e2c;
+}
+
+/* data */
+
+.data{
+    background-color: #ffffff;
+    box-shadow: 0px 1px 10px 0px rgb(216, 212, 212);
+    margin-top: 2%;
+    width: 30vw;
+    height: 12vh;
+    display: flex;
+    padding: 2%;
+    justify-content: space-evenly;
+}
+
+/* data-child-1 */
+
+.data-child-1{
+    border-right: 1px solid black;
+}
+
+/* header-cursor */
+
+.header-cursor{
+    position: relative;
+    right: 4rem;
+}
+
+/* bi-chevron-down */
+
+.bi-chevron-down{
+    color: #ff9e2c;
+    position: relative;
+    right: 1rem;
+}
+
+/* region */
+
+.region{
+    font-weight: bold;
+    position: relative;
+    right: 3rem;
+}
+
+/* shamal */
+
+.shamal{
+
+    position: relative;
+    right: 2rem;
+
+}
+
+
+/* child-2 */
+
+.child-2{
+    background-color: antiquewhite;
+}
