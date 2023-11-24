@@ -1,5 +1,151 @@
+.navbar-background{
+    background-color: #ffffff !important;
+}
+
 /* logo */
 
 .logo{
     width: 50%;
+    margin-left: 80%;
+}
+
+/* navbar-middle-links */
+
+.navbar-middle-links:hover{
+
+    border-bottom: 2px solid #ff9e2c;
+    /* transition: 0.5s; */
+
+}
+
+
+/* navbar-center-menu */
+
+.navbar-center-menu{
+    margin-left: 25%;
+}
+
+/* bi-person */
+
+.bi-person{
+    width: 5vh !important;
+}
+
+/* right-menus */
+
+.right-menu-one, .right-menu-two, .right-menu-three{
+    position: relative;
+    cursor: pointer;
+}
+
+.right-menu-one{
+    left: 5%;
+}
+
+.right-menu-two{
+    left: 10%;
+}
+
+.right-menu-three{
+    left: 15%;
+}
+
+/* Media-Queries */
+
+/* For 992px */
+
+@media screen and (max-width:992px) {
+
+    .logo{
+        margin-left: 25%;
+    }    
+
+    .navbar-center-menu{
+        margin-left: 3%;
+    }
+
+    .bi-person{
+        /* width: 5vh !important; */
+        margin-left: 3%;
+    }
+    
+
+    .right-menu-one{
+        left: 1%;
+    }
+
+    .right-menu-two{
+        display: none;
+    }
+    
+    .right-menu-three{
+        display: block;
+        left: 3%;
+    }
+    
+}
+
+/* For 768px */
+
+@media screen and (max-width:768px) {
+
+    .logo{
+        margin-left: 25%;
+        width: 80%;
+    }    
+
+    .navbar-center-menu{
+        margin-left: 5%;
+        font-size: 1.3rem;
+    }
+
+    .bi-person{
+        margin-left: 5%;
+    }
+    
+
+    .right-menu-one{
+        left: 1%;
+        font-size: 1.3rem;
+    }
+
+    .right-menu-three{
+        left: 5%;
+        font-size: 1.3rem;
+    }
+    
+}
+
+/* For 576px */
+
+@media screen and (max-width:576px) {
+
+    .logo{
+        margin-left: 25%;
+        width: 80%;
+    }    
+
+    .navbar-center-menu{
+        margin-left: 6%;
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+
+    .bi-person{
+        margin-left: 6%;
+    }
+    
+
+    .right-menu-one{
+        left: 1%;
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+
+    .right-menu-three{
+        left: 6%;
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+    
 }
