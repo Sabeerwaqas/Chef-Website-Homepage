@@ -1,0 +1,116 @@
+.popular-dishes-section{
+    height: 50vh;
+    margin-top: 5%;
+    /* background-color: rgb(235, 235, 59); */
+}
+
+/* popular-dishes */
+
+.popular-dishes{
+    color: #FF9E2C;
+}
+
+/* see-all */
+
+.see-all{
+    width: 7vw;
+    border-radius: 50px;
+    color: #ffffff;
+    margin-top: 1%;
+    background-color: #FF9E2C;
+    border: none;
+}
+
+/* cards-parent */
+
+/* .cards-parent{
+    display: flex;
+} */
+
+/* card-border */
+
+.card-border{
+    /* border: 2px solid black; */
+    width: 15vw;
+    height: 40vh;
+    margin-left: 10%;
+    position: relative;
+    bottom: 10rem;
+    left: 10rem;
+    box-shadow: 0px 10px 10px 0px gray;
+    display: inline-block;
+}
+
+/* dishes */
+
+.dishes{
+    width: 15vw;
+    
+}
+
+/* dish-info */
+
+.dish-info{
+    background-color: #ffffff;
+    width: 100%;
+    height: 20vh;
+    padding: 4%;
+    font-size: small;
+    border-radius: 10px;
+}
+
+/* deal-num */
+
+.deal-num{
+    color: #FF9E2C;
+}
+
+/* pick-dish */
+
+.pick-dish{
+    position: relative;
+    bottom: 1rem;
+}
+
+/* qar-200 */
+
+.qar-200{
+    position: relative;
+    bottom: 1.5rem;
+}
+
+/* person */
+
+.person{
+    width: 1.5rem;
+    position: relative;
+    bottom: 1.5rem;
+}
+
+/* marriot */
+
+.marriot{
+    position: relative;
+    bottom: 1.5rem;
+    left: 0.5rem;
+}
+
+/* rating */
+
+.rating{
+    position: relative;
+    left: 2rem;
+    bottom: 1.5rem;
+}
+
+/* rating-star */
+
+.rating-star{
+    color: #FF9E2C;
+}
+
+/* rating-num */
+
+.rating-num{
+    margin-left: 2%;
+}

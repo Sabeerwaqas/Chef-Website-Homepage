@@ -4,12 +4,14 @@ import Header from "./header/Header";
 import Footer from "./footer/Footer";
 import Customer from "./customerReviews/Customer";
 import Categories from "./categories/Categories";
+import Dishes from "./popularDishes/Dishes";
 
 const App = () => {
   return (
     <>
       <Navbar />
       <Header/>
+      <Dishes/>
       <Categories/>
       <Customer/>
       <Footer/>
