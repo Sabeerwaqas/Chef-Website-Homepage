@@ -166,3 +166,88 @@ color: #8f8f8f;
     position: relative;
     left: 4rem;
 }
+
+
+/* Media Queries */
+
+/* For 1st Child */
+
+@media screen and (max-width:768px) {
+    
+    .main-heading{
+        font-size: 3.5rem;    
+        margin-left: 4%;
+    }
+    
+    .small-color{
+        position: relative;
+        left: 2rem;
+        }
+
+        .data{
+            margin-top: 4%;
+            margin-left: 4%;
+            width: 85vw;
+        }
+
+        .data-child-1{
+            left: 1rem;
+        }
+        
+        .region{
+            font-size: 1.1rem;
+        }
+        
+        .shamal{
+            top: 2rem;
+        }
+
+        .calender-icon{
+            right: 4rem;
+        }
+
+
+    .select-date{
+    font-size: 1.1rem;
+    right: 3rem;
+    }
+
+    .date-arrow{
+    right: 20%;
+    }   
+
+
+    .date{
+    width: 8rem;
+    right: 4rem;
+    top: 1rem;
+    }
+
+    .select-persons{
+        left: 3rem;
+    }
+
+    .select-persons-text{
+        left: 4rem;
+        font-size: 1.1rem;
+    }
+
+    .person-arrow-down, .person-arrow-up{
+        top: 3rem;
+        right: 4rem;
+    }
+        
+    .person-arrow-up{
+        right: 1rem;
+    }
+
+.person-input{
+    top: 3rem;
+    right: 1.5rem;
+    border: none;
+
+}
+
+
+}
+

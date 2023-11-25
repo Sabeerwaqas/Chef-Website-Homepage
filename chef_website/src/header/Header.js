@@ -5,12 +5,12 @@ const Header = () => {
 
   // For persons count
 
-  const [person, setPerson] = useState(null)
+  const [person, setPerson] = useState(0)
 
   return (
     <header className="container">
       <div className="row">
-        <div className="col row-child child-1">
+        <div className="col col-sm-12 col-md-12 col-lg-6 row-child child-1">
           <h1 className="main-heading">
             Book <span className="special-color"> Private Chef </span> <br />
             for your <br /> Dinner <span className="special-color">Party</span>
@@ -57,7 +57,7 @@ const Header = () => {
             </div>
           </div>
         </div>
-        <div className="col row-child">2 of 2</div>
+        <div className="col col-sm-12 col-md-12 col-lg-6 row-child">2 of 2</div>
       </div>
     </header>
   );
