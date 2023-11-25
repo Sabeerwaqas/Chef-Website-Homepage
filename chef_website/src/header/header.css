@@ -40,7 +40,7 @@ color: #8f8f8f;
     background-color: #ffffff;
     box-shadow: 0px 1px 10px 0px rgb(216, 212, 212);
     margin-top: 2%;
-    width: 30vw;
+    width: 40vw;
     height: 12vh;
     display: flex;
     padding: 2%;
@@ -51,13 +51,15 @@ color: #8f8f8f;
 
 .data-child-1{
     border-right: 1px solid black;
+    position: relative;
+    left: 2rem;
 }
 
 /* header-cursor */
 
 .header-cursor{
     position: relative;
-    right: 4rem;
+    right: 2.5rem;
 }
 
 /* bi-chevron-down */
@@ -73,7 +75,7 @@ color: #8f8f8f;
 .region{
     font-weight: bold;
     position: relative;
-    right: 3rem;
+    right: 2rem;
 }
 
 /* shamal */
@@ -85,9 +87,82 @@ color: #8f8f8f;
 
 }
 
+/* calender-icon */
+
+.calender-icon{
+    position: relative;
+    right: 1.5rem;
+}
+
+/* select-date */
+
+.select-date{
+    font-weight: bold;
+    position: relative;
+    right: 1rem;
+}
+
+
+/* date-arrow */
+
+.date-arrow{
+    position: relative;
+    right: 5%;
+}
+
+/* date */
+
+.date{
+    width: 7.5rem;
+    position: relative;
+    right: 1.5rem;
+}
+
+
+/* select-persons */
+.select-persons{
+    position: relative;
+    left: 4rem;
+}
+
+/* select-persons-text */
+
+.select-persons-text{
+    font-weight: bold;
+    position: relative;
+    left: 5rem;
+}
+
+/* person-arrow-down */
+
+.person-arrow-down{
+    position: relative;
+    top: 1.5rem;
+    right: 1rem;
+}
+
+/* person-arrow-up */
+
+.person-arrow-up{
+    color: #ff9e2c;
+    position: relative;
+    top: 1.5rem;
+    left: 1rem;
+}
+
+/* person-input */
+
+.person-input{
+    width: 3vw;
+    height: 3vh;
+    position: relative;
+    top: 1.5rem;
+}
 
 /* child-2 */
 
 .child-2{
-    background-color: antiquewhite;
+    border-right: 1px solid black !important;
+    position: relative;
+    left: 4rem;
 }

@@ -1,13 +1,18 @@
-import React from "react";
+import React , {useState} from "react";
 import "./header.css";
 
 const Header = () => {
+
+  // For persons count
+
+  const [person, setPerson] = useState(null)
+
   return (
     <header className="container">
       <div className="row">
         <div className="col row-child child-1">
           <h1 className="main-heading">
-            Book <span className="special-color"> Private Chef </span> <br />{" "}
+            Book <span className="special-color"> Private Chef </span> <br />
             for your <br /> Dinner <span className="special-color">Party</span>
           </h1>
           <small className="small-color">
@@ -23,15 +28,36 @@ const Header = () => {
               </div>
               <div>
                 <small className="shamal">
-                Al Shamal
+                Al Shamal الشمال
                 </small>
               </div>
             </div>
-            <div>2</div>
-            <div>3</div>
+            <div className="child-2">
+              <div>
+              <i class="calender-icon bi bi-calendar3"></i>
+              <small className="select-date">Select Date</small>
+              <i class="date-arrow bi bi-chevron-down"></i>
+              </div>
+              <div>
+                <input className="date" type="date"/>
+              </div>
+            </div>
+            <div>
+              <div>
+              <i class="select-persons bi bi-person-add"></i>
+              <small className="select-persons-text">Select persons</small>
+              <small type="button" onClick={(e)=> setPerson(person - 1) }>
+              <i  class="person-arrow-down bi bi-chevron-down"></i>
+              </small>
+              <input className="person-input" type="number" value={person}/>
+              <small type="button" onClick={(e)=> setPerson(person + 1) }>
+              <i class="person-arrow-up bi bi-chevron-up"></i>
+              </small>
+              </div>
+            </div>
           </div>
         </div>
-        <div className="col row-child child-2">2 of 2</div>
+        <div className="col row-child">2 of 2</div>
       </div>
     </header>
   );
