@@ -1,0 +1,106 @@
+footer{
+    background-color: #1f1f1f !important;
+}
+
+
+/* footer-logo */
+
+.footer-logo{
+    margin-top: 20%;
+}
+
+/* footer-address-heading */
+
+.footer-address-heading, .footer-links-heading{
+    margin-top: 30%;
+    color: #FF9E2C;
+    text-transform: capitalize !important;
+}
+
+/* bi-geo-alt-fill */
+
+.bi-geo-alt-fill, .bi-telephone-fill, .bi-envelope-fill{
+    color: #ffffff;
+}
+
+/* address */
+
+.address{
+    color: #ffffff;
+    font-size: 0.7rem;
+    margin-left: 2%;
+    /* text-align: center !important; */
+}
+
+
+/* email */
+
+.email, .phone{
+    color: white;
+    font-size: 0.8rem;
+    margin-left: 5%;
+}
+
+.faq, .contact{
+    color: white !important;
+    text-decoration: none;
+    font-size: small;
+}
+
+.contact{
+    margin-left: 4%;
+}
+
+/* links-child */
+
+.links-child{
+    color: #ffffff !important;
+    text-decoration: none;
+}
+
+/* footer-subscribe-heading */
+
+.footer-subscribe-heading{
+    color: #FF9E2C;
+    margin-top: 20%;
+    text-transform: capitalize !important;
+}
+
+/* footer-email-input */
+
+.footer-email-input{
+    padding: 2%;
+    width: 14vw;
+    border: none;
+    border-radius: 5px;
+}
+
+/* footer-email-button */
+
+.footer-email-button{
+    background-color: #FF9E2C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 2%;
+    margin-left: 3%;
+    width: 3vw;
+}
+
+/* our-social */
+
+.our-social{
+    display: block;
+    margin-top: 20%;
+    color: white;
+}
+
+/* social-media */
+
+.social-media{
+    color: #FF9E2C;
+}
+
+.bi-twitter, .bi-instagram{
+    margin-left: 5%;
+}
