@@ -1,7 +1,6 @@
 .popular-dishes-section{
     height: 50vh;
-    margin-top: 5%;
-    /* background-color: rgb(235, 235, 59); */
+    margin-top: 10%;
 }
 
 /* popular-dishes */
@@ -21,16 +20,9 @@
     border: none;
 }
 
-/* cards-parent */
-
-/* .cards-parent{
-    display: flex;
-} */
-
 /* card-border */
 
 .card-border{
-    /* border: 2px solid black; */
     width: 15vw;
     height: 40vh;
     margin-left: 10%;
@@ -60,7 +52,6 @@
 }
 
 /* deal-num */
-
 .deal-num{
     color: #FF9E2C;
 }
@@ -73,14 +64,12 @@
 }
 
 /* qar-200 */
-
 .qar-200{
     position: relative;
     bottom: 1.5rem;
 }
 
 /* person */
-
 .person{
     width: 1.5rem;
     position: relative;
@@ -96,7 +85,6 @@
 }
 
 /* rating */
-
 .rating{
     position: relative;
     left: 2rem;
@@ -104,13 +92,11 @@
 }
 
 /* rating-star */
-
 .rating-star{
     color: #FF9E2C;
 }
 
 /* rating-num */
-
 .rating-num{
     margin-left: 2%;
 }
