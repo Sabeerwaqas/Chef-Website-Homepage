@@ -2,5 +2,59 @@
 .food-items{
     background-color: #f8f8f8;
     margin-top: 5%;
+    height: 80vh;
+    padding: 5%;
+}
+
+/* food-items-images */
+
+.food-items-images{
     height: 60vh;
+    width: 60vw;
+}
+
+/* browse-categories */
+
+.browse-categories{
+    color: #FF9E2C;
+}
+
+/* explore-foods */
+
+.explore-foods{
+    width: 26vw !important;
+    height: 50vh !important;
+    position: relative !important;
+    bottom: 20rem;
+    left: 11rem;
+}
+
+/* master-chefs */
+
+.master-chefs, .desserts, .events{
+    width: 10vw;
+    position: relative;
+    left: 14rem;
+    bottom: 25rem;
+}
+
+/* desserts */
+
+.desserts{
+    left: 16rem;
+}
+
+/* events */
+
+.events{
+    width: 10vw;
+    position: relative;
+    bottom: 15rem;
+    left: -3rem;
+}
+
+/* birthday */
+
+.birthday{
+    left: -1rem;
 }
