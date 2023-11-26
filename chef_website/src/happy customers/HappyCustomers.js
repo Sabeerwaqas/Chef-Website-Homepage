@@ -19,22 +19,18 @@ const HappyCustomers = () => {
             <img className="girl-four girl" src={fourthGirl} />
           </span>
           <span>
-            <small className="happy-customers">
-                Our happy customers
-            </small>
+            <small className="happy-customers">Our happy customers</small>
           </span>
           <span className="girls-review-section">
-          <i class="girls-star bi bi-star-fill"></i>
-          <small className="four-point-seven">4.7</small>
-          <small className="eight-point-two">(8.2K Rewiew)</small>
+            <i class="girls-star bi bi-star-fill"></i>
+            <small className="four-point-seven">4.7</small>
+            <small className="eight-point-two">(8.2K Rewiew)</small>
           </span>
           <span>
-            <small className="we-accept">
-                We accept
-            </small>
+            <small className="we-accept">We accept</small>
             <span>
-                <img src={visaCard} className="trans-card visa"/>
-                <img src={masterCard} className="trans-card master-card"/>
+              <img src={visaCard} className="trans-card visa" />
+              <img src={masterCard} className="trans-card master-card" />
             </span>
           </span>
         </div>

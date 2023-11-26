@@ -11,7 +11,7 @@ const Customer = () => {
         </h2>
       </div>
       <button className="slider-left-button">
-      <i class="bi bi-chevron-left"></i>
+        <i class="bi bi-chevron-left"></i>
       </button>
       <div className="cards-container">
         {customerData.map((data, index) => (
@@ -21,14 +21,14 @@ const Customer = () => {
             <small className="william">{data.title}</small>
             <p className="feedback">{data.feedback}</p>
             <span className="cards-reviews">
-            <i class="bi cards-reviews-star bi-star-fill"></i>
-            <small className="cards-reviews-rating">4.5</small>
+              <i class="bi cards-reviews-star bi-star-fill"></i>
+              <small className="cards-reviews-rating">4.5</small>
             </span>
           </div>
         ))}
       </div>
       <button className="slider-right-button">
-      <i class="bi bi-chevron-right"></i>
+        <i class="bi bi-chevron-right"></i>
       </button>
     </section>
   );

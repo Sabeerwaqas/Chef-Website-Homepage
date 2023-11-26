@@ -103,7 +103,7 @@ const Footer = () => {
                   </button>
                 </div>
                 <div className="social-media">
-                <small className="our-social">Our Social</small>
+                  <small className="our-social">Our Social</small>
                   <a>
                     <i class="bi bi-facebook"></i>
                   </a>

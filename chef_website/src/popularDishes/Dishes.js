@@ -21,7 +21,11 @@ const Dishes = () => {
           {dishData.map((info, index) => (
             <div className="card-border" key={index}>
               <div>
-                <img className="dishes" src={info.image} alt={`Dish ${index + 1}`} />
+                <img
+                  className="dishes"
+                  src={info.image}
+                  alt={`Dish ${index + 1}`}
+                />
               </div>
               <div className="dish-info">
                 <p>{info.menuTitle}</p>

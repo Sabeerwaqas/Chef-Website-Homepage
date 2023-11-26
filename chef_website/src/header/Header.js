@@ -67,7 +67,7 @@ const Header = () => {
             <img className="sweets-header-img" src={sweets} />
             <img className="tray-header-img" src={tray} />
             <img className="potatoes-header-img" src={potatoes} />
-            <img className="banned-header-img" src={bannedArrow}/>
+            <img className="banned-header-img" src={bannedArrow} />
           </span>
         </div>
       </div>
