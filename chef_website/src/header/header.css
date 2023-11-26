@@ -4,7 +4,7 @@
 
 .row-child{
     /* background-color: antiquewhite; */
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin: 2% 0 0 0;
     height: 50vh;
 }
@@ -251,3 +251,60 @@ color: #8f8f8f;
 
 }
 
+
+
+/* spoon-header-img */
+
+.spoon-header-img{
+    width: 8%;
+    position: relative;
+    left: 5rem;
+    bottom: 1rem;
+
+}
+
+/* bowl-header-img */
+
+.bowl-header-img{
+    width: 12vw;
+    position: relative;
+    top: 15vh;
+    right: 2rem;
+}
+
+/* sweets-header-img */
+
+.sweets-header-img{
+    width: 18vw;
+    position: relative;
+    right: 5rem;
+    top: 2rem;
+}
+
+/* tray-header-img */
+
+.tray-header-img{
+    width: 12vw;
+    position: relative;
+    left: 12rem;
+    top: 2rem;
+}
+
+
+/* potatoes-header-img */
+
+.potatoes-header-img{
+    width: 8vw;
+    position: relative;
+    left: 13rem;
+    bottom: 5rem;
+}
+
+/* banned-header-img */
+
+.banned-header-img{
+    position: relative;
+    right: 10rem;
+    top: 1rem;
+    width: 5vw;
+}

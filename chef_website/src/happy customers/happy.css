@@ -1,0 +1,92 @@
+/* girl */
+
+.girl{
+    position: relative;
+    left: 1%;
+}
+
+/* girl-two */
+
+.girl-two{
+    left:-2%;
+}
+
+/* girl-three */
+
+.girl-three{
+    left: -4%;
+}
+
+/* girl-four */
+
+.girl-four{
+    left: -6%;
+}
+
+/* girlsPics */
+
+.girlsPics{
+    /* background-color: red; */
+    width: 50vw;
+    margin: 5% 0 0 7%;
+}
+
+/* happy-customers */
+
+.happy-customers{
+    color: #ff9e2c;
+    font-weight: 600;
+    position: relative;
+    right: 4%;
+    bottom: 0.5rem;
+}
+
+/* girls-review-section */
+
+.girls-review-section{
+    position: relative;
+    top: 1rem;
+    right: 10rem;
+}
+
+/* four-point-seven */
+
+.four-point-seven{
+    margin-left: 0.5%;
+}
+
+/* eight-point-two */
+
+.eight-point-two{
+    margin-left: 1%;
+}
+
+/* girls-star */
+
+.girls-star{
+    color: #ff9e2c;
+}
+
+/* we-accept */
+
+.we-accept{
+    color: #8f8f8f;
+    position: relative;
+    right: 15%;
+    bottom: 0.5rem;
+}
+
+/* trans-card */
+
+.trans-card{
+    width: 1.8rem;
+    position: relative;
+    left: 31rem;
+    bottom: 2.1rem;
+}
+
+/* master-card */
+
+.master-card{
+    left: 31.9rem;
+}

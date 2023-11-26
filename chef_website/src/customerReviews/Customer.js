@@ -20,6 +20,10 @@ const Customer = () => {
             <small className="customer-william">{data.name}</small>
             <small className="william">{data.title}</small>
             <p className="feedback">{data.feedback}</p>
+            <span className="cards-reviews">
+            <i class="bi cards-reviews-star bi-star-fill"></i>
+            <small className="cards-reviews-rating">4.5</small>
+            </span>
           </div>
         ))}
       </div>

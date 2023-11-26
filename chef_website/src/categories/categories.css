@@ -22,8 +22,8 @@
 /* explore-foods */
 
 .explore-foods{
-    width: 26vw !important;
-    height: 50vh !important;
+    width: 28vw !important;
+    height: 54vh !important;
     position: relative !important;
     bottom: 20rem;
     left: 11rem;
@@ -32,7 +32,7 @@
 /* master-chefs */
 
 .master-chefs, .desserts, .events{
-    width: 10vw;
+    width: 12vw;
     position: relative;
     left: 14rem;
     bottom: 25rem;
@@ -47,14 +47,14 @@
 /* events */
 
 .events{
-    width: 10vw;
+    width: 12vw;
     position: relative;
-    bottom: 15rem;
-    left: -3rem;
+    bottom: 14rem;
+    left: -6.5rem;
 }
 
 /* birthday */
 
 .birthday{
-    left: -1rem;
+    left: -4.5rem;
 }

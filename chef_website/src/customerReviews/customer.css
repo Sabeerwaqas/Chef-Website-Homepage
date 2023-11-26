@@ -97,3 +97,23 @@ text-transform: capitalize;
     left: 90%;
     bottom: 45%;
 }
+
+/* cards-reviews */
+
+.cards-reviews{
+    margin-left: 70%;
+    position: relative;
+    bottom: 10%;
+}
+
+/* cards-reviews-star */
+
+.cards-reviews-star{
+    color: #FF9E2C;
+}
+
+/* cards-reviews-rating */
+
+.cards-reviews-rating{
+    margin-left: 5%;
+}

@@ -114,22 +114,11 @@ const Footer = () => {
                     <i class="bi bi-instagram"></i>
                   </a>
                 </div>
-                {/* <p>
-                  <i className="fas fa-envelope me-3"></i>
-                  info@example.com
-                </p>
-                <p>
-                  <i className="fas fa-phone me-3"></i> + 01 234 567 88
-                </p>
-                <p>
-                  <i className="fas fa-print me-3"></i> + 01 234 567 89
-                </p> */}
               </div>
             </div>
           </div>
         </section>
-
-        <div className="text-center p-4">
+        <div className="text-center copyright p-4">
           © 2023 Copyright:
           <a className="text-reset fw-bold" href="https://mdbootstrap.com/">
             O 16 Labs

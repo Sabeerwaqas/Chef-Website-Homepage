@@ -54,7 +54,7 @@
 .circle-five{
     position: relative;
     left: 30rem;
-    bottom: 30rem;
+    bottom: 28rem;
     width: 10vw;
 }
 
@@ -92,11 +92,23 @@
     width: 12vw;
     position: relative;
     bottom: 25rem;
-    right: 18rem;
+    right: 16rem;
+}
+
+/* ios-playstore */
+
+.ios-playstore{
+    width: 12vw;
+    position: absolute;
+    top: 52.5rem;
+    right: 30rem;
 }
 
 /* pizza */
 
 .pizza{
-    /* width: 2vw; */
+    position: absolute;
+    width: 10vw;
+    top: 39.5rem;
+    right: 15rem;
 }

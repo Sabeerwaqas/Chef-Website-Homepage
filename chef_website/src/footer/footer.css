@@ -104,3 +104,9 @@ footer{
 .bi-twitter, .bi-instagram{
     margin-left: 5%;
 }
+
+/* copyright */
+
+.copyright{
+    color: #ffffff;
+}

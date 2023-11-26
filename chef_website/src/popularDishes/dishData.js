@@ -25,5 +25,12 @@ export const dishData = [
         rating: 4.5,
         price: `QAR 200`
     },
+    {
+        image: dishTwo,
+        menuTitle: "Menu Title Here",
+        chef: "Marriot Head Chef",
+        rating: 4.5,
+        price: `QAR 200`
+    },
     
 ]

@@ -25,8 +25,8 @@ const Marketing = () => {
           <img className="circle-five" src={circleFive} />
           <img className="icecream" src={icecream} />
           <img className="google-playstore" src={googlePlaystore} />
-          {/* <img className="pizza" src={pizza}/> */}
-          {/* <img className="google-playstore" src={iosApp} /> */}
+          <img className="pizza" src={pizza}/>
+          <img className="ios-playstore" src={iosApp} />
           <img className="mobile" src={mobile} />
           <h2 className="mobile-app">Download our Mobile App</h2>
         </div>
